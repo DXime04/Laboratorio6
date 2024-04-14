@@ -1,0 +1,85 @@
+body {
+    background-image: url('anexo/Fondo-de-pagina_1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #1d2c1da1; 
+    
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 40px; 
+}
+
+nav ul li a {
+    color: #f5f7f3;
+    text-decoration: none; 
+    transition: color 0.3s; 
+    text-decoration: none; 
+    padding: 10px; 
+    transition: background-color 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color: #518439ba; 
+}
+
+nav ul li a:hover {
+    color: rgb(195, 244, 122); 
+}
+
+nav ul li a.active {
+    font-weight: bold; 
+    color: rgb(195, 244, 122); 
+}
+
+main {
+    background-color: rgba(33, 42, 27, 0.41);
+    padding: 30px;
+    margin: 50px;
+    border-radius: 3%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+img.portada {
+    display: block; /* Muestra la imagen como bloque para centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 500px;
+    height: 800px;
+}
+
+img.pelis {
+    width: 300px;
+    height: 460px;
+}
+
+img.serie {
+    width: 330px;
+    height: 460px;
+}
+
+img.actor {
+    width: 330px;
+    height: 460px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
